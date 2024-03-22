@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondScreen">
+
+    <TextView
+        android:id="@+id/textViewLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Экран 2"/>
+
+    <TextView
+        android:id="@+id/textViewLinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Произведена передача данных с первого экрана"/>
+
+    <Button
+        android:id="@+id/to_third_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Перейти на третий экран"/>
+
+</LinearLayout>
